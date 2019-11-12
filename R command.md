@@ -10,3 +10,8 @@
 ### 10. Set leverl order
         filename$column <-factor(filename$column,levels = c(.........),ordered=T )
 ### 11. list.files('C:/Users/fawnz/Downloads')
+### 12. ggsave() will save the last plot created.
+        For example...
+        qplot(x = price, data = diamonds)
+        ggsave('priceHistogram.png')
+        getwd()-----to check the directory of this graph
